@@ -22,5 +22,10 @@ I added a colour listbox with a bunch of common colours and a colour chooser to 
 
 # Time box
 
+Since each frame created using the GUI is meant to be a frame of an animation, I added the option to control the number of seconds a frame woild last. If I set the time to 2 seconds, the frame would persist for two seconds By default, the time is set to 1 second.
+
+# Frames
+
+
 
 
