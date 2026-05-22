@@ -22,10 +22,15 @@ I added a colour listbox with a bunch of common colours and a colour chooser to 
 
 # Time box
 
-Since each frame created using the GUI is meant to be a frame of an animation, I added the option to control the number of seconds a frame woild last. If I set the time to 2 seconds, the frame would persist for two seconds By default, the time is set to 1 second.
+Since each frame created using the GUI is meant to be a frame of an animation, I added the option to control the number of seconds a frame would last. If I set the time to 2 seconds, the frame would persist for two seconds. By default, the time is set to 1 second.
 
 # Frames
 
+As you can see above, I added several buttons below the grid like : "Next", "Previous", "Submit", and "Done". These buttons are meant to make it easier for me to create new frames, check or edit previous frames, and finally submit the frames once I'm happy with them.
 
+In the background, whenever I submit a frame, the RGB values, brightness values and the time value of the frame are added to a list. 
 
+I didn't want to use a multi-dimensional array to store multiple float or int values of all the rows of all the frames. Instead, I used a simple two-dimensional list.
+
+Each element of this 2D list is a list containing all the values of a frame. 
 
