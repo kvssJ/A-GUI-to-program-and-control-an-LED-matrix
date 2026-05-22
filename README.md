@@ -40,4 +40,16 @@ Once I click submit, this list of strings would be added to the 2D list. Since I
 
 I also added the option to edit previous frames which had already been submitted. Whenever I move to a previous frame, the program would access the corresponding list and edit any changed values.
 
+# Interfacing the GUI with the LED matrix
+
+Once I click "Done", all the values of the 2D list is written to "led information text" text file. 
+
+I wrote two other programs to read the text file and play the animation on the matrix. It was much harder to figure out how to read the values and play the animation than to create the GUI. I have another repository with these two programs. The actual LED control is explained in that repository.
+
+Currently, once I write all the values to the text file, I'll need to run the other programs as two seperate programs. Once I'm done adding any more features or code, I'm planning to change the GUI such that as soon as I click "Done", it both writes the values to the text file and plays the animation on the LED matrix automatically.
+
+# Future plans
+
+
+
 
