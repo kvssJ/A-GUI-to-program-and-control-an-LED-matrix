@@ -30,7 +30,9 @@ As you can see above, I added several buttons below the grid like : "Next", "Pre
 
 In the background, whenever I submit a frame, the RGB values, brightness values and the time value of the frame are added to a list. 
 
-I didn't want to use a multi-dimensional array to store multiple float or int values of all the rows of all the frames. Instead, I used a simple two-dimensional list.
+I didn't want to use a multi-dimensional array to store multiple float or int values of all the rows of all the frames. Instead, I used a simple two-dimensional list. Each element of this 2D list is a list containing all the values of a frame. To simplify the lists, I concatenated the RGB values and brightness values of each row into a string. The six strings formed a list in the 2D list. 
 
-Each element of this 2D list is a list containing all the values of a frame. 
+Once I click submit, this list of strings would be added to the 2D list. Since I was using python anyways, this was pretty easy with the append function.
+
+I also added the option to edit previois frames which had already been submitted. Whenever I move to a previous frame, the program would access the corresponding list and edit any changed values.
 
