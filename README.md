@@ -50,6 +50,12 @@ Currently, once I write all the values to the text file, I'll need to run the ot
 
 # Future plans
 
+There are a LOT of things you can do with the LED matrix. You just need some creativity to figure them out. Currently, I'm planning to add a few simple features.
+
+## Music player
+
+
+
 
 
 
