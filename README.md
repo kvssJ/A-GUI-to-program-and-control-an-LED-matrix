@@ -24,6 +24,10 @@ I added a colour listbox with a bunch of common colours and a colour chooser to 
 
 Since each frame created using the GUI is meant to be a frame of an animation, I added the option to control the number of seconds a frame would last. If I set the time to 2 seconds, the frame would persist for two seconds. By default, the time is set to 1 second.
 
+# Brightness control
+
+I added a scrollbar ranging from 0 to 15 to control the brightness of a particular LED. By default, the brightness is set to 15 (fully bright) I used something called Bit Angle Modulation to control the brightness. Since this repository is only for the GUI. I won't discuss how Bit Angle Modulation works here.
+
 # Frames
 
 As you can see above, I added several buttons below the grid like : "Next", "Previous", "Submit", and "Done". These buttons are meant to make it easier for me to create new frames, check or edit previous frames, and finally submit the frames once I'm happy with them.
@@ -34,5 +38,6 @@ I didn't want to use a multi-dimensional array to store multiple float or int va
 
 Once I click submit, this list of strings would be added to the 2D list. Since I was using python anyways, this was pretty easy with the append function.
 
-I also added the option to edit previois frames which had already been submitted. Whenever I move to a previous frame, the program would access the corresponding list and edit any changed values.
+I also added the option to edit previous frames which had already been submitted. Whenever I move to a previous frame, the program would access the corresponding list and edit any changed values.
+
 
