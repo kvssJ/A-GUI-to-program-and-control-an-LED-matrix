@@ -26,7 +26,7 @@ Since each frame created using the GUI is meant to be a frame of an animation, I
 
 # Brightness control
 
-I added a scrollbar ranging from 0 to 15 to control the brightness of a particular LED. By default, the brightness is set to 15 (fully bright) I used something called Bit Angle Modulation to control the brightness. Since this repository is only for the GUI. I won't discuss how Bit Angle Modulation works here.
+I added a scrollbar ranging from 0 to 15 to control the brightness of a particular LED. By default, the brightness is set to 15 (fully bright). I used something called Bit Angle Modulation to control the brightness. Since this repository is only for the GUI. I won't discuss how Bit Angle Modulation works here.
 
 # Frames
 
