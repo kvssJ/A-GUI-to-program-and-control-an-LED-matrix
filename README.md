@@ -50,12 +50,21 @@ Currently, once I write all the values to the text file, I'll need to run the ot
 
 # Future plans
 
-There are a LOT of things you can do with the LED matrix. You just need some creativity to figure them out. Currently, I'm planning to add a few simple features.
+There are a LOT of things you can do with an easy to use GUI and an LED matrix. You just need some creativity to figure them out. Currently, I'm planning to add a few simple features to the GUI so that I can do more than just play animations.
 
-## Music player
+### Music player
 
+I think it'll be really cool to find some way to interface music with the LED matrix, sort of like a visual representation for sound. Varying brightness or varying colours depending on auditory features like pitch or loudness are some ways I could do this. I'm hoping to add the option to upload songs to the GUI and play them on the matrix 
 
+### Tetris and other simple games
 
+The LED matrix is perfect for old or simple games like tetris, space invaders, or the clasic snake game. I could add levels or high scores to the GUI. 
+
+### Video/image to pixel art
+
+For a 5x6 LED matrix, even if I manage to get a really low resolution pixelated image, it'll be difficult to spot on the LED matrix. However, I'll still add such an option to the GUI so that once I make a larger matrix, I can use it.
+
+I'm planning to use the open cv library in python to process images or videos into pixels, read the values from the pixels, and eventually write them to the LED Matrix.
 
 
 
